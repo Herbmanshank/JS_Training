@@ -1,0 +1,11 @@
+function JS(){
+    function hamndleUpdate(){
+	
+	console.log(this.value);
+	console.log(suffix);
+	console.log(this.name);
+    }
+    inputs.forEach(input => input.addEventListener('çhange', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+    
+}
